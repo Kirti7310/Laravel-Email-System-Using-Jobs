@@ -1,17 +1,33 @@
-Laravel Email System Using Jobs
+Laravel Email System Using Jobs & Queues
 
-This project demonstrates how to send welcome emails asynchronously using Laravel Jobs and Queues.
+A simple Laravel project demonstrating how to send welcome emails asynchronously using Jobs and Queues after user registration.
 
-Features:
+This project focuses on understanding Laravel’s background processing system and improving application performance by handling email sending in the queue instead of the main request cycle.
 
-User registration form
+📌 Project Overview
 
-Welcome email template
+When a user registers:
 
-Job-based email processing
+The user is stored in the database.
 
-Queue worker setup
+A Laravel Job is dispatched.
 
-Mailtrap integration
+The Job sends a welcome email using Laravel Mail.
 
-Built for learning Laravel background jobs and mail handling.
+The Queue Worker processes the email in the background.
+
+This ensures faster response time and better scalability.
+
+✨ Features
+
+📝 User Registration Form
+
+📧 Professional HTML Welcome Email Template
+
+⚙️ Laravel Mail Configuration
+
+🔄 Job-Based Email Processing
+
+🚀 Queue Worker Setup
+
+📬 Mailtrap SMTP Integration for Testing
