@@ -31,3 +31,10 @@ This ensures faster response time and better scalability.
 🚀 Queue Worker Setup
 
 📬 Mailtrap SMTP Integration for Testing
+
+
+
+
+
+<img width="1874" height="847" alt="image" src="https://github.com/user-attachments/assets/9c0cac36-ad30-48cb-acdd-e5004563e679" />
+
